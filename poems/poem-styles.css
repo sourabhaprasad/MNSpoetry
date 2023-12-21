@@ -17,7 +17,7 @@ h2{
 #poem-container{
     display: flex;
     justify-content: center;
-    margin:50px;
+    margin:20px;
     padding: 100px;
     align-content: center;
 }
