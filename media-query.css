@@ -1,0 +1,55 @@
+@import "main-styles.css";
+
+@media all and (max-width: 600px) {
+
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    nav{
+        margin: 0px;
+        font-size:9px;
+        text-align: center;
+    }
+
+    #author{
+        display: inline;
+        margin: 2px auto;
+        text-align: center;
+    }
+
+    #author img{
+        width: 200px;
+        height: auto;
+        object-fit: contain;
+        padding-top: 30px;
+    }
+
+    #author p{
+        width: 100%;
+        font-size: small;
+        text-align: left;
+    }
+
+    .container{
+        align-content: center;
+    }
+
+    .poem{
+        margin: -10px;
+        max-width: 80px;
+    }
+
+    .poem img {
+        width: 65px;
+        height: 125px;
+        object-fit: cover;
+    }
+
+    .poem a{
+        font-size: smaller;
+    }
+}
+

@@ -1,0 +1,16 @@
+@import "main-styles.css";
+@import "media-query.css";
+
+@keyframes nav-animation {
+    from{
+        transform: translateY(-50px);
+        text-shadow: 1px 1px 15px pink ;
+    }
+
+    to{
+        transform: translateX(0);
+        text-shadow: 1px 1px 15px pink ;
+    }
+    
+}
+

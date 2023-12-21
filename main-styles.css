@@ -1,0 +1,97 @@
+@import "animations.css";
+
+*{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+
+nav{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 35px 0;
+    margin-top: -100px;
+    z-index: 4;
+    animation: nav-animation 1s ease-in;
+}
+
+nav:hover{
+    text-shadow: 1px 1px 15px pink ;
+}
+
+main{
+    margin:100px;
+}
+
+#author{
+    display: flex;
+    padding: 80px;
+    line-height: 25px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.author-p{
+    padding-right: 80px;
+    font-size: medium;
+}
+
+.h1-main{
+    text-align: center;
+}
+
+#author img{
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    background-size:cover;
+    transition: transform 0.3s ease 0s;
+}
+
+#author img:hover{
+    box-shadow: 1px 2px 15px pink ;
+    transform: translate3d(-5px,-5px,0px);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.poem{  
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+    transition: transform 0.3s ease 0s;
+}
+
+.poem img{
+    margin-bottom: 10px;
+    width: 150px;
+    height: 250px;
+    object-fit:cover;
+    border: 0.6px solid white;
+    border-radius: 2%;
+}
+
+.poem img:hover{
+    box-shadow: 0.5px 0.5px 10px pink ;
+}
+
+.poem a{
+    text-decoration: none;
+}
+
+.poem:hover{
+    transform: translateY(-10px)
+}
+
+
